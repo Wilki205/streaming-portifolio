@@ -1,0 +1,23 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #141414;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navigation a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #e50914;
+}

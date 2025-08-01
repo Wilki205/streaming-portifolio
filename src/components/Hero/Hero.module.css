@@ -1,0 +1,79 @@
+.heroContainer {
+  /* URL da imagem de fundo atualizada */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.infoWrapper {
+  color: white;
+  max-width: 50%;
+}
+
+.seriesLabel {
+  color: #a3a3a3;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.metadata {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.pill {
+  border: 1px solid #a3a3a3;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.playButton, .trailerButton {
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.playButton {
+  background-color: white;
+  color: black;
+}
+
+.trailerButton {
+  background-color: rgba(109, 109, 110, 0.7);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.playButton:hover, .trailerButton:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
